@@ -1,0 +1,74 @@
+/* styles.css */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #E6F0F3;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+}
+
+.whitebox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 55%;
+    width: 18%;
+    background-color: white;
+    border-radius: 3%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+}
+
+#qr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    width: 99%;
+    border-radius: 3%;
+}
+
+#content {
+    font-size: 26px;
+    color: #333;
+    text-align: center;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+
+    padding-top: 15px;
+}
+
+#scan-con {
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #ac9797;
+    padding-top: 5px;
+}
+
+#qr img {
+    height: 100%;
+    width: 99%;
+    border-radius: 3%;
+}
+
+
+/* CSS for medium screens */
+@media only screen and (max-width: 500px) {
+    .whitebox {
+        width: 70%;
+    }
+}
+
+/* CSS for small screens */
+@media only screen and (max-width: 300px) {
+    .whitebox {
+        width: 100%;
+    }
+}
